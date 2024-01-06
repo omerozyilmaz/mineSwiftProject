@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851F3AF12B49C4A9008CA19C /* GuessScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F3AF02B49C4A9008CA19C /* GuessScreenViewController.swift */; };
+		851F3AF32B49C627008CA19C /* FinalScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F3AF22B49C627008CA19C /* FinalScreenViewController.swift */; };
 		859B2C832B47451800BF4115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859B2C822B47451800BF4115 /* AppDelegate.swift */; };
 		859B2C852B47451800BF4115 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859B2C842B47451800BF4115 /* SceneDelegate.swift */; };
 		859B2C872B47451800BF4115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859B2C862B47451800BF4115 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		851F3AF02B49C4A9008CA19C /* GuessScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessScreenViewController.swift; sourceTree = "<group>"; };
+		851F3AF22B49C627008CA19C /* FinalScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScreenViewController.swift; sourceTree = "<group>"; };
 		859B2C7F2B47451800BF4115 /* Guess The Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess The Number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		859B2C822B47451800BF4115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		859B2C842B47451800BF4115 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		859B2C762B47451800BF4115 = {
 			isa = PBXGroup;
 			children = (
+				851F3AF22B49C627008CA19C /* FinalScreenViewController.swift */,
+				851F3AF02B49C4A9008CA19C /* GuessScreenViewController.swift */,
 				859B2C812B47451800BF4115 /* Guess The Number */,
 				859B2C982B47451A00BF4115 /* Guess The NumberTests */,
 				859B2CA22B47451A00BF4115 /* Guess The NumberUITests */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851F3AF12B49C4A9008CA19C /* GuessScreenViewController.swift in Sources */,
 				859B2C872B47451800BF4115 /* ViewController.swift in Sources */,
 				859B2C832B47451800BF4115 /* AppDelegate.swift in Sources */,
+				851F3AF32B49C627008CA19C /* FinalScreenViewController.swift in Sources */,
 				859B2C852B47451800BF4115 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
